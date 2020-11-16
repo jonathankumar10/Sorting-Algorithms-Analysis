@@ -1,4 +1,4 @@
-# DAA-Project
+# Sorting Algorthims and their Analysis
 
 This Project was a course project that was to be made in Design and Analysis of Algorithms Class.
 
