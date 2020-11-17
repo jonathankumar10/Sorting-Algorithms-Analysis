@@ -332,7 +332,7 @@ if __name__ == "__main__":
             if graph_option == 'y':
                 elements = list() 
                 times = list() 
-                for i in range(1, n):  
+                for i in range(1, n+1):  
                     a = [random.randint(1, 1000) for j in range(i)]
                     start_point1 = time.time() 
                     msort.mergeSort(a)
@@ -376,7 +376,7 @@ if __name__ == "__main__":
             if graph_option == 'y':
                 elements = list() 
                 times = list() 
-                for i in range(1, n):  
+                for i in range(1, n+1):  
                     a = [random.randint(1, 1000) for j in range(i)]
                     start_point1 = time.time() 
                     isort.insertionSort(a)
@@ -428,7 +428,7 @@ if __name__ == "__main__":
                 if graph_option == 'y':
                     elements = list() 
                     times = list() 
-                    for i in range(1, n):  
+                    for i in range(1, n+1):  
                         a = [random.randint(1, 1000) for j in range(i)]
                         start_point1 = time.time() 
                         qsort.quick_sort(a, 0, len(a)-1)
@@ -474,7 +474,7 @@ if __name__ == "__main__":
                 if graph_option == 'y':
                     elements = list() 
                     times = list() 
-                    for i in range(1, n):  
+                    for i in range(1, n+1):  
                         a = [random.randint(1, 1000) for j in range(i)]
                         start_point1 = time.time() 
                         mqsort.quick_median_sort(a)
@@ -518,7 +518,7 @@ if __name__ == "__main__":
             if graph_option == 'y':
                 elements = list() 
                 times = list() 
-                for i in range(1, n):  
+                for i in range(1, n+1):  
                     a = [random.randint(1, 1000) for j in range(i)]
                     start_point1 = time.time() 
                     ssort.selectionSort(a)
@@ -564,7 +564,7 @@ if __name__ == "__main__":
             if graph_option == 'y':
                 elements = list() 
                 times = list() 
-                for i in range(1, n):  
+                for i in range(1, n+1):  
                     a = [random.randint(1, 1000) for j in range(i)]
                     start_point1 = time.time() 
                     hsort.heapSort(a)
@@ -608,7 +608,7 @@ if __name__ == "__main__":
             if graph_option == 'y':
                 elements = list() 
                 times = list() 
-                for i in range(1, n):  
+                for i in range(1, n+1):  
                     a = [random.randint(1, 1000) for j in range(i)]
                     start_point1 = time.time() 
                     bsort.bubbleSort(a)
