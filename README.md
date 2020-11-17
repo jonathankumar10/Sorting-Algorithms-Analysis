@@ -7,4 +7,5 @@ Implemented various sorting algorithms from scratch in python and compared them.
 
 Used matplotlib.pylot as a helper library.
 
-Was able to give the user a choice of different algorithms to choose from and also give a graphical representation of how the algorithm did for 100 inputs.
+Was able to give the user a choice of different algorithms to choose from and show the results respectively.
+Also, give a graphical representation of how all algorithm did for 100 inputs.
